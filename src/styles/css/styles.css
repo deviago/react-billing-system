@@ -1,0 +1,456 @@
+/* CSS Document */
+.logoimg{
+	width: 180px;
+}
+.body {
+	font-family: 'energicos-regular';
+}
+
+.utility-bill-container {
+	display: grid;
+	background-color: #fff;
+	width: 210mm;
+	height: 297mm;
+	margin: auto;
+}
+
+.utility-bill-content {
+	display: grid;
+	background-color: #fff;
+	margin-left: 20mm;
+	margin-top: 27mm;
+	margin-right: 7.8mm;
+	margin-bottom: 0mm;
+	grid-template-columns: auto auto auto auto auto auto;
+	
+}
+
+.energicos_key_components {
+	display: grid;
+	grid-gap: 0.85mm;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-template-columns: auto auto auto auto auto;
+	/*background-color: #2196F3;*/
+}
+
+.energicos_key_components > div {
+	/*background-color: aquamarine;*/
+}
+
+.energicos_components_cluster {
+	display: grid;
+	grid-gap: 0.25mm;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-template-columns: auto auto auto auto auto auto;
+	/*background-color: #2196F3;*/
+
+}
+
+.energicos_components_cluster > div {
+	/*background-color: aquamarine;*/
+}
+
+.footer-energicos {
+	display: grid;
+	grid-gap: 1.45mm;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-template-columns: auto auto auto auto auto;
+	/*background-color: #2196F3;*/
+
+}
+
+.footer-energicos > div {
+	/*background-color: aquamarine;*/
+}
+
+.footer-component {
+	font-family: 'energicos-regular';
+	color: #4a4a4a;
+	font-size: 2.62mm;
+	letter-spacing: 0.15mm;
+	line-height: 3.8mm;
+}
+
+.energicos-wave {
+	display: grid;
+	align-content: end;
+	grid-column-start: 1;
+	grid-column-end: 7;
+}
+
+.component-header {
+	background-color: #f5f5f5;
+	width: 100%;
+	padding-top: 2mm;
+	padding-bottom: 2mm;
+	text-align: center;
+	border-bottom: solid 0.1mm #c30017;
+	margin-bottom: 0.2mm;
+	font-family: 'energicos-semibold';
+	font-size: 3.1mm;
+	color: #404040;
+}
+
+.icon-header {
+	font-size: 12mm;
+}
+
+.energicos-important > .symbol {
+	font-size: 7mm;
+}
+
+
+.item {
+	text-align: center;
+	padding-top: 1.6mm;
+	padding-bottom: 1.6mm;
+	font-family: 'energicos-regular';
+	font-size: 3mm;
+	letter-spacing: 0.1mm;
+	color: #666666;
+}
+
+.energicos-letter {
+	font-size: 3.1mm;
+	font-family: 'energicos-regular';
+	color: #4a4a4a;
+}
+
+.key-location {
+	font-family: 'energicos-regular';
+	color: #4a4a4a;
+	font-size: 2.65mm;
+	letter-spacing: 0.35mm;
+	margin-bottom: 4mm;
+}
+
+.key-area, .address-top {
+	font-family: 'energicos-regular';
+	font-size: 3.40mm;
+	color: #666666;
+	line-height: 4.3mm;
+	letter-spacing: 0.20mm;
+}
+
+.address-top {
+	margin-bottom: 4mm;
+}
+
+.energicos-important {
+	font-family: 'energicos-bold';
+	
+}
+
+
+.total {
+	font-family: 'energicos-bold';
+	font-size: 3.1mm;
+}
+
+.blank {
+	color: #fff;
+}
+
+.last {
+	border-bottom: 0.1mm solid #e1e0e5;
+}
+
+li {
+    /*border-top: 1px solid black;*/
+	/*border-bottom: 0.1mm solid rgb(242, 242, 242);*/
+	border-top: 0.1mm solid rgb(242, 242, 242);
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+    width: 100%;
+	/*border-bottom: 1px solid black;*/
+	margin-top: 0mm;
+}
+
+.energicos-letter, .energicos-content {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	text-align: left;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin-top: 0mm;
+	margin-bottom: 1.45mm;
+}
+
+.horizontal-divider {
+	grid-column-start: 1;
+	grid-column-end: 7;
+}
+
+hr {
+	margin-top: 0mm;
+	margin-bottom: 0mm;
+	border-width: 0.1mm;
+}
+
+.energicos-footer-line {
+	color: #af998c;
+	background-color: #af998c;
+}
+
+.cluster-header {
+	background-color: rgb(237, 236, 243);
+	border-bottom: solid 0.1mm #dddce0;
+	width: 100%;
+	padding-top: 2mm;
+	padding-bottom: 2mm;
+	text-align: center;
+	margin-bottom: 0.2mm;
+	color: #8f0014;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 0.2mm;
+	font-family: 'energicos-medium';
+}
+
+.energicos-logo {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	text-align: right;
+}
+
+.key-location {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	text-align: left;
+}
+
+.key-area {
+	grid-column-start: 1;
+	grid-column-end: 7;
+	text-align: left;
+}
+
+.address-top {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	text-align: left;
+}
+
+.component1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+
+.icon {
+	font-family: "energicos-icons";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+	color: #c30017;
+     
+	/* For safety - reset parent styles, that can break glyph codes*/
+	font-variant: normal;
+	text-transform: none;
+
+	/* Animation center compensation - margins should be symmetric */
+	/* remove if not needed */
+	margin-left: .2em;
+
+	/* You can be more comfortable with increased icons size */
+	/* font-size: 120%; */
+
+	/* Font smoothing. That was taken from TWBS */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Uncomment for 3D effect */
+	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+
+/*========START PAGES 2 & 3========*/
+
+.current-page {
+	color: #9c9a9a;
+}
+
+.energicos_key_components_5cols {
+	display: grid;
+	grid-gap: 0.34mm;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-template-columns: auto auto auto auto auto;
+	/*background-color: #2196F3;*/
+}
+
+.energicos_key_components_5cols > div {
+	/*background-color: aquamarine;*/
+}
+
+.energicos_key_components_6cols {
+	display: grid;
+	grid-gap: 0.42mm;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-template-columns: auto auto auto auto auto auto;
+	/*background-color: #2196F3;*/
+}
+
+.energicos_key_components_6cols > div {
+	/*background-color: aquamarine;*/
+}
+
+
+.energicos_key_components_4cols {
+	display: grid;
+	grid-gap: 0.42mm;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-template-columns: auto auto auto auto;
+	/*background-color: #2196F3;*/
+}
+
+
+.energicos_key_components_2cols {
+	display: grid;
+	grid-gap: 4mm;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-template-columns: auto auto;
+	font-size: 3.1mm;
+	font-family: 'energicos-regular';
+	color: #4a4a4a;
+	line-height: 4.5mm;
+	/*background-color: #2196F3;*/
+}
+
+.energicos_key_components_2cols > div {
+	/*background-color: aquamarine;*/
+}
+
+
+.sub-columns {
+	display: grid;
+	grid-gap: 0.42mm;
+	grid-template-columns: auto auto;
+	
+}
+
+.component-header2 {
+	background-color: #f5f5f5;
+	width: 100%;
+	padding-top: 2mm;
+	padding-bottom: 2mm;
+	text-align: center;
+	border-bottom: solid 0.1mm #c30017;
+	margin-bottom: 0.1mm;
+	font-family: 'energicos-regular';
+	font-size: 3.5mm;
+	color: #404040;
+}
+
+.main-title {
+	font-family: 'energicos-bold';
+	color: #404040;
+	letter-spacing: 0.1mm;
+}
+
+.sub-title {
+	font-family: 'energicos-semibold';
+	color: #404040;
+	letter-spacing: 0.1mm;
+	margin-top: -1.2mm;
+}
+
+.component-header-blank {
+	margin-top: 8.4mm;
+}
+
+.item-left {
+	text-align: left;
+	padding-top: 1.6mm;
+	padding-bottom: 1.6mm;
+	font-family: 'energicos-regular';
+	font-size: 3mm;
+	letter-spacing: 0.1mm;
+	color: #666666;
+}
+
+.energicos-red {
+	background-color: rgb(195, 0, 23);
+	height: 0.2mm;
+	margin-top: 3mm;
+	margin-bottom: 3mm;
+}
+
+.side-1-energicos {
+	width: 100%;
+}
+
+.side-1-energicos > img {
+	text-align: left;
+}
+
+.side-2-energicos > img {
+	text-align: right;
+}
+
+.side-2-energicos {
+	width: 100%;
+}
+
+.Aufteilung-spacer {
+	margin-top: 8mm;
+}
+
+
+
+/*========END PAGES 2 & 3========*/
+
+
+
+
+/*=============START DEFINING CSS MEDIA FOR PRINT==============*/
+/*This print kit media supports only Google’s Chrome, Apple’s Safari, Opera & Firefox (at least version 48.0.2) browsers*/
+@media print and (color) { 
+	.component-header, .component-header2 {
+		background-color: #f5f5f5;
+		-webkit-print-color-adjust: exact;
+		color-adjust: exact;
+	}
+	
+	.component-header, .component-header2 {
+		color: #404040;
+		-webkit-print-color-adjust: exact; 
+		color-adjust: exact;
+		
+	}
+	
+	.cluster-header {
+		background-color: rgb(237, 236, 243);
+		-webkit-print-color-adjust: exact; 
+		color-adjust: exact;
+		
+	}
+	
+	.cluster-header {
+		color: #8f0014;
+		-webkit-print-color-adjust: exact;
+		color-adjust: exact;
+	}
+	
+	.energicos-red {
+		background-color: rgb(195, 0, 23);
+		-webkit-print-color-adjust: exact;
+		color-adjust: exact;
+		
+	}
+	
+}
+/*=============END DEFINING CSS MEDIA FOR PRINT==============*/
+

@@ -1,0 +1,64 @@
+.App {
+    width: 1200px;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 80px;
+}
+
+.App-header {
+  height: 90px;
+  padding: 20px;
+  float: left;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.invoiceRecord .rt-table, .pagination-bottom {
+    font-size: 14px;
+}
+
+input{
+  border: 1px solid #ececed;
+  padding: 10px;
+  height: 44px;
+  padding: 0 10px;
+  margin: 0 0 6px;
+  outline: 0;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+  font-size: 1.2rem;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+button.btn.createacc {border: 0; background-color: #2089C4; color: #fff; padding: 14px 20px; border-radius: 3px;margin-bottom: 20px;cursor: pointer; }
+.previewRec{margin-left: 10px;}
+h3.nonRecord {font-size: 16px; text-align: center; border: 1px solid #ececed; background-color: #fff; padding: 15px; }
+h5{font-size: 14px; }
+h6{font-size: 12px;font-weight: normal; }
+
+button.btn.createacc:disabled,
+button.btn.createacc[disabled]{
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* Change Password Popup */
+.popup {position: fixed; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; margin: auto; background-color: rgba(0,0,0, 0.5); }
+.popup_inner {position: absolute; left: 0; right: 0; height: 800px; overflow-y: scroll; }
+.changePassWrap input {background-color: #ececed; padding: 12px 10px; }
+.changePassHead {margin-bottom: 20px; }
+.changePassWrap .continueBtn, .changePassWrap .cancelBtn {width: 25%; display: inline-block; border-radius: 3px; float: right; }
+.changePassWrap .cancelBtn {margin-right: 20px; }
+.closepopup {cursor: pointer; position: fixed; right: 15px; z-index: 99; text-transform: uppercase; padding: 15px 20px !important; font-weight: bold; }
